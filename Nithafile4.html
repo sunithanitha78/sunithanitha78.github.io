@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Learn CSS Positioning part 2</title>
+	<style type="text/css"> 
+
+	*{
+		margin: 0;
+	}	
+
+div#container {
+    width: 1200px;
+    height: 1365px;
+    background: #908f9e;
+    margin: auto;
+}
+
+div#header {
+    background: red;
+    width: 900px;
+    margin: auto;
+}
+
+img {
+    width: 240px;
+    height: 240px;
+    border: 20px inset #a90000;
+    border-radius: 162px;
+}
+
+
+h2 {
+    color: white;
+    font-size: 135px;
+    text-shadow: 0 0 1px #fff, 0 0 1px #090909, 0 0 1px #fff, 0 0 1px #101010, 0 0 30px #0e0e0e, 0 0 40px #0c0c0c, 0 0 55px #0a0a0a, 0 0 75px #0e0e0e;
+    vertical-align: top;
+}
+div#sapp {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.gw {
+    display: inline-block;
+    background-color: white;
+    width: 90px;
+    height: 40px;
+    text-align: center;
+    margin-left: 37px;
+    margin-top: 41px;
+    border-radius: 32px;
+    border: 5px solid #a90000;
+    padding-top: 20px;
+}
+
+
+
+div.boxes {
+    background-color: #0a0a0a;
+    color: #fd0000;
+    width: 80px;
+    height: 20px;
+    left: 88px;
+    border: 5px solid #ffffff;
+    border-radius: 55px;
+    text-align: center;
+    padding: 25px;
+    position: relative;
+    text-shadow: 2px 2px #ffffff;
+    font-size: x-large;
+    margin-top: 60px;
+    outline: 60px groove;
+}
+
+div#left {
+    display: inline-block;
+    margin-left: 122px;
+}
+
+div#right {
+    display: inline-block;
+    vertical-align: top;
+}
+	
+
+
+div#right {
+    display: inline-block;
+    vertical-align: top;
+    width: 640px;
+    height: 760px;
+    margin-left: 144px;
+    margin-top: 0px;
+    border: 20px inset #fd0000;
+    background-image: url(https://newevolutiondesigns.com/images/freebies/white-wallpaper-8.jpg);
+    background-size: 600px;
+    font-size: -webkit-xxx-large;
+    padding-top: 66px;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding-left: 50px;
+    text-shadow: 2px 2px 5px red;
+}
+
+
+
+p {
+    font-size: 41px;
+    text-shadow: 2px 1px 4px #920d0d;
+    padding-top: 50px;
+}
+
+.box {
+    display: inline-block;
+    background-color: white;
+    height: 78px;
+    width: 90px;
+    margin-left: 166px;
+    margin-top: 15px;
+}
+
+.myeyes1 {
+    background-color: #a90000;
+    width: 30px;
+    height: 31px;
+    border-radius: 27px;
+    margin-left: 75px;
+    vertical-align: top;
+    display: inline-block;
+    margin-top: -5px;
+}
+
+.myeyes {
+    background-color: #a90000;
+    width: 30px;
+    height: 31px;
+    border-radius: 27px;
+    margin-left: -8px;
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+div#footer {
+    width: 865px;
+    height: 150px;
+    background-image: url(https://newevolutiondesigns.com/images/freebies/white-wallpaper-8.jpg);
+    background-size: 916px;
+    border: 20px inset #fd0000;
+    margin-left: 146px;
+    margin-top: 20px;
+}
+
+
+
+	</style>
+      </head>
+<body>
+<div id="container">
+<div id="header"><img src="http://www.idevmobile.com/wp-content/uploads/ico-whatsapp-blacklist.png">
+<div id="sapp"><h2>Whatsapp</h2>
+ <div class="gw">Home</div>
+  <div class="gw">Calls</div>
+   <div class="gw">Chats</div>
+    <div class="gw">Contacts</div>
+    </div>
+  </div>	
+
+<div id="left">
+<div class="boxes">Account</div>
+ <div class="boxes">Security</div>
+  <div class="boxes">Search</div>
+   <div class="boxes" >Setting</div>
+    <div class="boxes">Delete </div>
+</div>
+
+<div id="right">What's WhatsApp?
+<p>WhatsApp Messenger is a cross-platform mobile messaging app which allows you to exchange messages without having to pay for SMS. WhatsApp Messenger is available for iPhone, BlackBerry, Windows Phone, Android and Nokia.</p></div>
+
+<div id="under">
+<div class="box">	
+<div class="myeyes1"></div> 
+      <div class="myeyes"></div>
+</div>
+
+<div class="box">
+<div class="myeyes1"></div> 
+      <div class="myeyes"></div>	
+      </div>
+<div class="box">
+<div class="myeyes1"></div> 
+      <div class="myeyes"></div>	
+</div>
+
+<div class="box">
+<div class="myeyes1"></div> 
+      <div class="myeyes"></div>	
+</div>
+
+<div id="footer"></div>
+
+</div>
+
+</div>
+
+
+
+</body>
+</html>
