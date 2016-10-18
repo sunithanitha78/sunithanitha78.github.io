@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Learn CSS Positioning part 2</title>
+      <style type="text/css"> 
+
+	*{
+		margin: 0;
+	}	
+
+div#container {
+    width: 1200px;
+    height: 1365px;
+    /* background: #a094dc; */
+    margin: auto;
+}
+
+div#header {
+    border: 4px blue dotted;
+    width: 892px;
+    margin: auto;
+    background-image: url(https://www.wallsandmurals.com/content/images/thumbs/0018659_wg20163_750.jpeg);
+}
+
+
+img#images1 {
+    width: 70px;
+    height: 70px;
+    border: 16px inset #fd0000;
+    border-radius: 30px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 5;
+    margin: 5px;
+}
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:100px; top:0px;}
+    50%  {left:100px; top:180px;}
+    75%  {left:0px; top:180px;}
+    100% {left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:100px; top:0px;}
+    50%  {left:100px; top:180px;}
+    75%  {left:0px; top:180px;}
+    100% {left:0px; top:0px;}
+}
+
+
+
+
+
+
+h2 {
+    color: #3f5aa1;
+    font-size: 135px;
+    text-shadow: 0 0 1px #fff, 0 0 1px #fd0000, 0 0 1px #fff, 0 0 1px #101010, 0 0 30px #0e0e0e, 0 0 40px #fd0000, 0 0 55px #0a0a0a, 0 0 75px #fd0000;
+    vertical-align: top;
+    margin-left: 270px;
+    margin-top: -87px;
+}
+
+div#sapp {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.gw1 {
+    display: inline-block;
+    background-color: #3f5aa1;
+    width: 90px;
+    height: 40px;
+    text-align: center;
+    margin-left: 325px;
+    margin-top: 41px;
+    border-radius: 32px;
+    border: 5px solid #a90000;
+    padding-top: 20px;
+}
+
+
+.gw {
+    display: inline-block;
+    background-color: #3f5aa1;
+    width: 90px;
+    height: 40px;
+    text-align: center;
+    margin-left: 37px;
+    margin-top: 41px;
+    border-radius: 32px;
+    border: 5px solid #a90000;
+    padding-top: 20px;
+}
+
+
+
+div.boxes {
+    background-color: #0a0a0a;
+    color: #fd0000;
+    width: 80px;
+    height: 20px;
+    left: 88px;
+    border: 5px solid #3f5aa1;
+    border-radius: 55px;
+    text-align: center;
+    padding: 25px;
+    position: relative;
+    text-shadow: 2px 2px #3f5aa1;
+    font-size: x-large;
+    margin-top: 60px;
+    outline: 45px double;
+}
+
+div#left {
+    display: inline-block;
+    margin-left: 122px;
+}
+
+div#right {
+    display: inline-block;
+    vertical-align: top;
+}
+	
+
+
+div#right {
+    display: inline-block;
+    vertical-align: top;
+    width: 640px;
+    height: 760px;
+    margin-left: 144px;
+    margin-top: 0px;
+    border: 20px inset #3f5aa1;
+    background-image: url(https://newevolutiondesigns.com/images/freebies/white-wallpaper-8.jpg);
+    background-size: 600px;
+    font-size: -webkit-xxx-large;
+    padding-top: 66px;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding-left: 50px;
+    text-shadow: 2px 2px 5px red;
+}
+
+
+
+p {
+    font-size: 20px;
+    text-shadow: 2px 1px 4px #920d0d;
+    padding-top: 50px;
+    -webkit-column-count: 3;
+}
+
+
+div#video {
+    margin-left: 53px;
+    margin-top: 15px;
+    border: 3px solid red;
+    width: 360px;
+    height: 315px;
+}
+
+
+
+.box {
+    display: inline-block;
+    background-color: #fd0000;
+    height: 145px;
+    width: 100px;
+    margin-left: 166px;
+    margin-top: 15px;
+    border-top-right-radius: 45px;
+    border-bottom-left-radius: 45px;
+}
+.myeyes1 {
+    background-color: #3f5aa1;
+    width: 30px;
+    height: 31px;
+    border-radius: 27px;
+    margin-left: -10px;
+    vertical-align: top;
+    display: inline-block;
+    margin-top: -8px;
+}
+
+.myeyes {
+    background-color: #3f5aa1;
+    width: 30px;
+    height: 31px;
+    border-radius: 27px;
+    margin-left: 85px;
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 102px;
+}
+
+div#newbox1 {
+    display: inline-block;
+    vertical-align: middle;
+    width: 387px;
+    /* background-color: #a90000; */
+    height: 470px;
+    margin-left: 240px;
+    margin-top: 26px;
+    border-style: dotted;
+    border-color: #fd0000;
+    border-bottom-left-radius: 150px;
+    border-top-left-radius: 150px;
+    border-width: thick;
+    background-image: url(https://www.wallsandmurals.com/content/images/thumbs/0018659_wg20163_750.jpeg);
+}
+
+div#What2 {
+    font-family: sans-serif;
+    font-size: 37px;
+    padding-left: 5px;
+    color: #65692b;
+    text-align: center;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+
+img#images2 {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    border-style: double;
+    border-width: 12px;
+    margin-left: 141px;
+    margin-top: 1px;
+    border-color: #fd0000;
+}
+
+
+div#hi {
+    font-family: serif;
+    font-weight: bold;
+    text-decoration: underline;
+    border-color: #2508f5;
+    text-align: center;
+    color: #65692b;
+    font-size: 39px;
+    text-shadow: 0 0 1px #fff, 0 0 1px #ffffff, 0 0 1px #fff, 0 0 1px #ffffff, 0 0 30px #ffffff, 0 0 40px #0c0c0c, 0 0 55px #0a0a0a, 0 0 75px #0e0e0e;
+}
+
+div#p1 {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 28px;
+    color: #65692b;
+    text-align: center;
+    padding-top: 25px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+div#newbox2 {
+    display: inline-block;
+    vertical-align: middle;
+    width: 378px;
+    /* background-color: #a90000; */
+    height: 470px;
+    margin-top: 25px;
+    border-style: dotted;
+    border-color: #fd0000;
+    margin-left: 1px;
+    border-bottom-right-radius: 150px;
+    border-top-right-radius: 150px;
+    border-width: thick;
+    background-image: url(https://www.wallsandmurals.com/content/images/thumbs/0018659_wg20163_750.jpeg);
+}
+
+div#yself {
+    margin-left: 3px;
+    font-family: sans-serif;
+    font-size: large;
+}
+
+div#fn {
+    margin-left: 5px;
+    color: #65692b;
+    font-weight: bold;
+}
+
+form#bfn {
+    margin-left: 3px;
+}
+
+div#ln {
+    margin-left: 5px;
+    color: #65692b;
+    font-weight: bold;
+}
+
+form#bln {
+    margin-left: 3px;
+}
+
+div#mf {
+    margin-left: 5px;
+    color: #65692b;
+    font-weight: bold;
+}
+
+form#bmf {
+    margin-left: 3px;
+}
+
+div#bday {
+    margin-left: 5px;
+    color: #65692b;
+    font-weight: bold;
+}
+
+form#bmday {
+    margin-left: 3px;
+}
+
+div#dob {
+    margin-left: 3px;
+    color: #65692b;
+    font-weight: bold;
+}
+
+form#bdate {
+    margin-left: 3px;
+}
+
+div#add {
+    margin-left: 5px;
+    color: #65692b;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+
+form#badd {
+    margin-left: 3px;
+}
+
+input[type="baddrs"] {
+    width: 167px;
+    height: 70px;
+}
+
+div#idpass {
+    margin-left: 3px;
+    font-family: sans-serif;
+    font-size: large;
+}
+
+div#whatid {
+    margin-left: 3px;
+    color: #65692b;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+form#bwe {
+    margin-left: 3px;
+}
+
+div#pass {
+    margin-left: 5px;
+    color: #65692b;
+    font-weight: bold;
+}
+
+form#bpass {
+    margin-left: 3px;
+}
+
+div#pass {
+    margin-left: 5px;
+    color: #65692b;
+    font-weight: bold;
+}
+
+div#wplat {
+    margin-left: 5px;
+    color: #65692b;
+    font-weight: bold;
+}
+
+form#bbut {
+    color: #65692b;
+    font-weight: bold;
+}
+
+input[type="reset"] {
+    background-color: #fd0000;
+    border: none;
+    color: #232caf;
+    padding: 10px 22px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 3px;
+}
+
+input[type="submit"] {
+    background-color: #fd0000;
+    border: none;
+    color: #232caf;
+    padding: 10px 22px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 3px;
+}
+
+img {
+    width: 251px;
+    height: 150px;
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+div#footer {
+    width: 865px;
+    height: 176px;
+    background-image: url(https://newevolutiondesigns.com/images/freebies/white-wallpaper-8.jpg);
+    background-size: 916px;
+    border: 20px inset #3f5aa1;
+    margin-left: 146px;
+    margin-top: 5px;
+    font-size: -webkit-xxx-large;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    color: red;
+    text-shadow: 0 0 1px #3f5aa1, 0 0 1px #3f5aa1, 0 0 1px #3f5aa1, 0 0 1px #3f5aa1, 0 0 30px #3f5aa1, 0 0 40px #3f5aa1, 0 0 55px #3f5aa1, 0 0 75px #3f5aa1;
+}
+
+
+	</style>
+      </head>
+<body>
+<div id="container">
+<div id="header"><img id="images1" src="http://www.idevmobile.com/wp-content/uploads/ico-whatsapp-blacklist.png">
+<div id="sapp"><h2>Whatsapp</h2>
+ <div class="gw1">Home</div>
+  <div class="gw">Calls</div>
+   <div class="gw">Chats</div>
+    <div class="gw">Contacts</div>
+    </div>
+  </div>	
+
+<div id="left">
+<div class="boxes">Account</div>
+ <div class="boxes">Security</div>
+  <div class="boxes">Search</div>
+   <div class="boxes" >Setting</div>
+    <div class="boxes">Delete </div>
+</div>
+
+<div id="right">USE WHATSAPP WEB ON!!!
+<p>WhatsApp Messenger is a cross-platform mobile messaging app which allows you to exchange messages without having to pay for SMS. WhatsApp Messenger is available for iPhone, BlackBerry, Windows Phone, Android and Nokia.</p>
+ <div id="video"><iframe width="360" height="315" src="https://www.youtube.com/embed/MEey9LQ348M" frameborder="0" allowfullscreen></iframe>
+ 
+
+</video>	
+
+ </div>
+
+</div>
+
+<div id="under">
+<div class="box">	
+<div class="myeyes1"></div> 
+      <div class="myeyes"></div>
+</div>
+
+<div class="box">
+<div class="myeyes1"></div> 
+ <div class="myeyes"></div>	
+      </div>
+
+<div class="box">
+<div class="myeyes1"></div> 
+      <div class="myeyes"></div>	
+</div>
+
+<div class="box">
+<div class="myeyes1"></div> 
+      <div class="myeyes"></div>	
+</div>
+
+</div>
+
+<div id="newbox1">
+<div id="What2">Whatsapp !</div>
+<img id="images2" src="https://thumbs.dreamstime.com/z/cute-bird-cartoon-delivering-letter-illustration-33992741.jpg">	 
+<div id="hi"><i>Hi there !</i> </div>
+ <div id="p1">We'll get you set up on WHATSAPP! in there easy steps! just answer a few simple questions,select an ID and password</div>
+</div>
+<div id="newbox2">
+
+<div id="yself">1.Tell us about yourself....</div>
+
+<div id="fn">Name:</div>	
+<form id="bfn">
+  <input type="text" name="First Name" placeholder="First Name..">
+</form>
+<div id="ln">Name:</div>	
+<form id="bln">
+  <input type="text" name="Last Name" placeholder="Last Name..">
+</form>
+<div id="mf">Gender:</div>	
+<form id="bmf">
+  <input type="text" name="male/female" placeholder="male/female..">
+</form>
+
+<div id="bday">Birthday:</div>	
+<form id="bmday">
+  <input type="text" name="month of birth" placeholder="month of birth..">
+</form>
+
+<div id="add">Address:</div>	
+<form id="badd">
+  <input type="baddrs" name="current address" placeholder="current address..">
+ </form>
+
+<div id="idpass">2.Select ID and password</div>
+
+<div id="whatid">Whatsapp Email ID :</div>	
+<form id="bwe">
+  <input type="text" name="eg: nitha@gmail.com" placeholder="eg: nitha@gmail.com..">
+ </form>
+
+<div id="pass">Password:</div>	
+<form id="bpass">
+  <input type="text" name="password" placeholder="password..">
+ </form>
+
+ <div id="wplat">Which platform are you using this application? :</div>
+<form id="bbut">
+ <input class="radio-button" type="radio" name="gadget" value="Desktop" checked="Tablet">Tablet
+ <input class="radio-button" type="radio" name="gadget" value="Desktop" checked="smartphone">Smartphone
+ <input class="radio-button" type="radio" name="gadget" value="Desktop" checked="iPhone">Iphone
+ </form>
+
+<input type="reset" value="Reset">
+<input type="submit" value="Submit">
+
+
+</div>
+<div id="footer">Try me 
+<img src="http://images.clipartpanda.com/smiley-face-thumbs-up-png-thumbs-up1.png">
+</div>
+
+
+</body>
+</html>
